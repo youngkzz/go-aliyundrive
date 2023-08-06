@@ -1,4 +1,4 @@
-module github.com/chyroc/go-aliyundrive
+module github.com/youngkzz/go-aliyundrive
 
 go 1.18
 

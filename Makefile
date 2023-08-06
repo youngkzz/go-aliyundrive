@@ -1,4 +1,4 @@
-local_package=github.com/chyroc/go-aliyundrive
+local_package=github.com/youngkzz/go-aliyundrive
 all: lint
 
 lint:

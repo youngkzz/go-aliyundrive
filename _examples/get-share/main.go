@@ -21,7 +21,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/chyroc/go-aliyundrive"
+	"github.com/youngkzz/go-aliyundrive"
 )
 
 func main() {

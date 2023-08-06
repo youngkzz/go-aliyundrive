@@ -5,7 +5,7 @@
 ## 安装
 
 ```shell
-go get github.com/chyroc/go-aliyundrive
+go get github.com/youngkzz/go-aliyundrive
 ```
 
 ## 使用

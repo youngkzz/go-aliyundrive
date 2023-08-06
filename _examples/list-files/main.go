@@ -19,7 +19,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/chyroc/go-aliyundrive"
+	"github.com/youngkzz/go-aliyundrive"
 )
 
 func main() {
