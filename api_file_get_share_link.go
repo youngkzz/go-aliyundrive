@@ -18,7 +18,6 @@ package aliyundrive
 import (
 	"context"
 	"net/http"
-	"time"
 )
 
 // GetShareLink 获取分享链接
@@ -41,26 +40,26 @@ func (r *ShareLinkService) GetShareLink(ctx context.Context, request *GetShareLi
 }
 
 type GetShareLinkReq struct {
-	DriveID        string    `json:"drive_id"`
-	SharePwd       string    `json:"share_pwd"`
-	Expiration     time.Time `json:"expiration"`
-	FileIdList     []string  `json:"file_id_list"`
-	SyncToHomepage bool      `json:"sync_to_homepage"`
+	DriveID        string   `json:"drive_id"`
+	SharePwd       string   `json:"share_pwd"`
+	Expiration     string   `json:"expiration"`
+	FileIdList     []string `json:"file_id_list"`
+	SyncToHomepage bool     `json:"sync_to_homepage"`
 }
 
 type GetShareLinkResp struct {
-	DriveID    string    `json:"drive_id"`
-	Category   string    `json:"category"`
-	ShareID    string    `json:"share_id"`
-	ShareUrl   string    `json:"share_url"`
-	ShareName  string    `json:"share_name"`
-	Expired    bool      `json:"expired"`
-	CreatedAt  time.Time `json:"created_at"`
-	UpdatedAt  time.Time `json:"updated_at"`
-	Status     string    `json:"status"`
-	ShareTitle string    `json:"share_title"`
-	Expiration time.Time `json:"expiration"`
-	SharePwd   string    `json:"share_pwd"`
+	DriveID    string `json:"drive_id"`
+	Category   string `json:"category"`
+	ShareID    string `json:"share_id"`
+	ShareUrl   string `json:"share_url"`
+	ShareName  string `json:"share_name"`
+	Expired    bool   `json:"expired"`
+	CreatedAt  string `json:"created_at"`
+	UpdatedAt  string `json:"updated_at"`
+	Status     string `json:"status"`
+	ShareTitle string `json:"share_title"`
+	Expiration string `json:"expiration"`
+	SharePwd   string `json:"share_pwd"`
 }
 
 type getShareLinkResp struct {
