@@ -44,7 +44,7 @@ type GetShareLinkReq struct {
 	DriveID        string    `json:"drive_id"`
 	SharePwd       string    `json:"share_pwd"`
 	Expiration     time.Time `json:"expiration"`
-	FileIdList     []*string `json:"file_id_list"`
+	FileIdList     []string  `json:"file_id_list"`
 	SyncToHomepage bool      `json:"sync_to_homepage"`
 }
 
